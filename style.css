@@ -1,9 +1,10 @@
-ul.navbar-nav li {
-    padding: 10px 20px;
-}
-
 ul.navbar-nav li a {
     color:#ffffff;
+}
+
+.bg-dark, .navbar-default {
+    background: #000000;
+    border:0;
 }
 
 .banner-image {
@@ -22,4 +23,35 @@ ul.navbar-nav li a {
     color:#ffffff;
     font-size: 60px;
     font-weight: 700;
+}
+
+.form-container {
+    width: 400px;
+    height: auto;
+    background-color: rgb(210, 30, 201);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 50px;
+    }
+
+    input{
+        width: 100%;
+        padding: 5px;
+    }
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding:50px 0px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
 }
