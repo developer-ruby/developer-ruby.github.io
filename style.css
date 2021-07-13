@@ -72,3 +72,14 @@ ul.navbar-nav li a {
 .slider-content img {
     height: 450px;
 }
+
+.footer-section {
+    background: url(chow.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-bg-color {
+    background: rgb(255, 255, 255, 0.5);
+    padding: 100px 0px;
+}
