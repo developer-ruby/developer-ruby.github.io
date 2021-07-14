@@ -73,13 +73,52 @@ ul.navbar-nav li a {
     height: 450px;
 }
 
-.footer-section {
-    background: url(chow.jpg) center no-repeat;
-    background-size: cover;
-    width: 100%;
+.newsletter-section {
+    padding: 60px 0px;
+    background: #0d6efd;
 }
 
-.footer-bg-color {
-    background: rgb(255, 255, 255, 0.5);
-    padding: 100px 0px;
+.mail-form {
+    display: inline-flex;
+}
+
+.newsletter-title {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.submit-btn {
+    background: #000000;
+    padding: 15px 20px;
+    color: #ffffff;
+}
+
+.black-bg {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.gray-bg {
+    padding: 30px;
+    text-align: center; 
+    background-color: #6c757d;
+    color: #ffffff;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.ptb-100 {
+    padding:100px 0px;
+}
+
+.img-width {
+    width:100%;
 }
