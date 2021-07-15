@@ -122,3 +122,37 @@ ul.navbar-nav li a {
 .img-width {
     width:100%;
 }
+.footer-title {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-desc {
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding-bottom: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.map-section iframe {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.copyright-section {
+    background-color: #212529;
+    padding: 70px 20px;
+    margin-top: 50px;
+}
+
+.copyright-text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
