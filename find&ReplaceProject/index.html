@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find and Replace with String Methods</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="bg-color">
+        <div class="row">
+            <div class="col-12 pt-4">
+                <header>
+                    <h1>Find and Replace</h1>
+                </header>
+            </div>
+        </div>
+    
+
+    
+        <div class="row">
+            <div class="col-12">
+                <main>
+                    <form action="#" method="post">
+                        <div class="row mt-5">
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <input type="text" id="find" placeholder="Find" />
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <input type="text" id="replace" placeholder="Replace" />
+                            </div>
+                            
+
+                            <div class="col-12 pt-5">
+                                <button id="btnSearch">Go</button>
+                            </div>
+                        </div>
+                        
+                        
+                    </form>
+                    <p class="target pt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </main>
+            </div>
+        </div>
+        </div>
+    </div> 
+    <script>
+    
+        document.addEventListener('DOMContentLoaded', function(){
+            var btn = document.getElementById('btnSearch');
+            btn.addEventListener('click', doFindAndReplace);
+        });
+        
+        function doFindAndReplace(ev){
+            ev.preventDefault();
+            
+            var find = document.getElementById('find').value;
+            var replace = document.getElementById('replace').value;
+            
+            var p = document.querySelector('.target');
+            
+            while( p.textContent.indexOf(find) != -1 ){
+                p.textContent = p.textContent.replace(find, replace);
+            }
+            
+        }
+        </script>   
+            
+    
+  
+   
+   
+</body>
+</html>
