@@ -1,0 +1,18 @@
+<body>
+
+    <div ng-app="" ng-init="val=['Home','News','About','Contact','Blog','Other Menu']">
+        <ul>
+            <li ng-repeat="menuItem in val">{{menuItem}}</li>
+        </ul>
+    <div ng-app="" ng-init="menuList=[
+    {menu:'Home', link:'home.html'},
+    {menu:'About', link:'about.html'},
+    {menu:'Contact', link:'contact.html'},
+    {menu:'Blog', link:'blog.html'}
+    ]">
+
+    <a ng-repeat="x in menuList" href={{x.link}}>{{x.menu}}</a>
+
+    </div>
+
+
